@@ -45,13 +45,24 @@ Não é necessário criar pastas vazias. Bases operacionais, resultados temporá
 
 ### Repositórios
 
-- Utilizar nomes em português, sempre que possível.
-- Utilizar letras minúsculas e sem acentos.
-- Separar as palavras com hífen.
-- Evitar números usados apenas para forçar uma ordem.
-- Evitar nomes genéricos como `diversos`, `outros`, `novo` ou `testes`.
+Os nomes dos repositórios devem seguir o padrão:
 
-Exemplos: `aymore`, `meridian`, `curva-forward` e `precificacao`.
+```text
+<area>-<projeto>
+```
+
+A área identifica o principal domínio ao qual o projeto está associado. Esse padrão mantém os repositórios da mesma área agrupados e facilita sua localização na organização.
+
+Áreas padronizadas: `backoffice`,`estudos`, `portfolio`, `precos`, `trading`, `compartilhado`
+
+- Utilizar letras minúsculas e sem acentos.
+- Separar todas as palavras com hífen.
+- Utilizar somente as áreas padronizadas como prefixo.
+- Evitar números utilizados apenas para forçar uma ordem.
+- Evitar nomes genéricos como diversos, outros, novo ou testes.
+- Utilizar compartilhado quando o projeto atender a várias áreas e não possuir uma responsável principal.
+
+Exemplos de nomes: `portfolio-meridian`, `precos-aymore`, `estudos-precificacao`.
 
 ### Pastas
 
